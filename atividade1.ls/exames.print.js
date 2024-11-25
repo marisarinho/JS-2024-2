@@ -65,6 +65,3 @@ console.log("Maior que 5: ");
 console.log(gerenciadorExame.maiorQue(5));
 console.log("Menor que 5: ");
 console.log(gerenciadorExame.menorQue(5));
-
-
-// pronto gatinha terminou
