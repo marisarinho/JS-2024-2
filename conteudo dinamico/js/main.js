@@ -4,8 +4,7 @@ const div = document.getElementById("flags-div");
 
 let htmlContent = "";
 
-for (const obj of flags){
-    
+for (const obj of flags) {
     htmlContent += `
     <div class="flag-item">
         <img src="${obj["image"]}" alt="${obj["name"]}" class="flag-image">
@@ -13,4 +12,4 @@ for (const obj of flags){
     </div>
     `;
 }
-div.innerHTML = htmlContent 
+div.innerHTML = htmlContent;
